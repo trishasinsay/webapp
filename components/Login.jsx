@@ -23,15 +23,15 @@ export default function Login (){
   }
  
     return (
-        <div className={styles.main}>
-         <div className={styles.submain}>
-           <div>
-             <div className={styles.imgs}>
-               <div className={styles.container_image}>
-                 <img src={"MARIALOGO.png"} alt="profile" className={styles.profile}/>
-               </div>
+          <div className={styles.main}>
+       <div className={styles.submain}>
+         <div>
+           <div className={styles.imgs}>
+             <div className={styles.container_image}>
+               <img src={"MARIALOGO.png"} alt="profile" className={styles.profile}/>
              </div>
-             <div>
+           </div>
+           <div>
               <form onSubmit={handleSubmit}>
                   <h1>Sign in to Re-Pub</h1>
                <div className={styles.input}>
