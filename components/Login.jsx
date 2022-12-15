@@ -53,9 +53,9 @@ export default function Login (){
                 <a href="/Titles"> Login</a>
               </button>
               </div>
-                <p className={styles.link}>
+                <div className={styles.link}>
                   <a href="#">Forgot password?</a>
-                </p>
+                </div>
               <div className={styles.signup}>
                 <p> 
                 Don&apos;t have an account? <a href="/SignUp">Sign Up</a>
